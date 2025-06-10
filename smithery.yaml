@@ -9,8 +9,7 @@ startCommand:
   configSchema:
     # JSON Schema defining the configuration options for the MCP.
     type: object
-    properties: {apiKey:
-        type: "string"
-        description: "Your API key"}
-    required: ["apiKey"]
+    properties:
+       type: string
+       description: The API key for test AI server.
   exampleConfig: {}
